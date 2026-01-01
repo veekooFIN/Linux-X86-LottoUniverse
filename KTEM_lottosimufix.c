@@ -28,29 +28,29 @@ void main()
 
   printf("All or nothing simulation:\n");
   printf("\nOne fixed row:\n");
-  printf("Enter 1-24 nbe#1:");
+  printf("Enter 1-24 nbr#1:");
   scanf("%d",&b0[0]); 
-  printf("Enter 1-24 nbe#2:");
+  printf("Enter 1-24 nbr#2:");
   scanf("%d",&b0[1]); 
-  printf("Enter 1-24 nbe#3:");
+  printf("Enter 1-24 nbr#3:");
   scanf("%d",&b0[2]); 
-  printf("Enter 1-24 nbe#4:");
+  printf("Enter 1-24 nbr#4:");
   scanf("%d",&b0[3]); 
-  printf("Enter 1-24 nbe#5:");
+  printf("Enter 1-24 nbr#5:");
   scanf("%d",&b0[4]); 
-  printf("Enter 1-24 nbe#6:");
+  printf("Enter 1-24 nbr#6:");
   scanf("%d",&b0[5]); 
-  printf("Enter 1-24 nbe#7:");
+  printf("Enter 1-24 nbr#7:");
   scanf("%d",&b0[6]); 
-  printf("Enter 1-24 nbe#8:");
+  printf("Enter 1-24 nbr#8:");
   scanf("%d",&b0[7]); 
-  printf("Enter 1-24 nbe#9:");
+  printf("Enter 1-24 nbr#9:");
   scanf("%d",&b0[8]); 
-  printf("Enter 1-24 nbe#10:");
+  printf("Enter 1-24 nbr#10:");
   scanf("%d",&b0[9]); 
-  printf("Enter 1-24 nbe#11:");
+  printf("Enter 1-24 nbr#11:");
   scanf("%d",&b0[10]); 
-  printf("Enter 1-24 nbe#12:");
+  printf("Enter 1-24 nbr#12:");
   scanf("%d",&b0[11]);
   printf("Enter 1-4 clover nbr#1:");
   scanf("%d",&bt0[0]);     
@@ -171,7 +171,7 @@ void main()
       if(sil != 1) printf("\n1 euro win");
       }
 
-      saldo = cash - game * 2 -2;
+      saldo = cash - game * 1 -1;
 
       if(sil != 1 && saldo > 100) printf("\nGame,win,100 euro saldo:%d+%ld+%ld",game,cash,saldo);
       if(sil != 1 && saldo > 1000) printf("\nGame,win,1000 euro saldo:%d+%ld+%ld",game,cash,saldo);
