@@ -173,7 +173,7 @@ void main()
       if(sil != 1) printf("\n1 euro win");
       }
 
-      saldo = cash - game * 1 -1;
+      saldo = cash - game * 2 -2;
 
       if(sil != 1 && saldo > 100) printf("\nGame,win,100 euro saldo:%d+%ld+%ld",game,cash,saldo);
       if(sil != 1 && saldo > 1000) printf("\nGame,win,1000 euro saldo:%d+%ld+%ld",game,cash,saldo);
